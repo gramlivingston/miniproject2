@@ -4,17 +4,124 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
     <title>miniProject2</title>
+
+
+    <style>
+        
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    }
+
+.one {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+     background-color: blanchedalmond;
+    outline-width: 30px;
+    outline-color: rgb(57, 27, 230);
+    outline: solid;
+
+}
+
+.two {
+/* for the colored vertical text */
+grid-column: 2 / 4 ;
+grid-row: 1 ;
+/* background-color: chocolate; */
+margin-right: 0px;
+margin-left: 0px;
+
+outline-width: 30px;
+outline-color: rgb(65, 196, 33);
+outline: solid;
+}
+
+.three {
+/* video Block */
+
+grid-column: 1 / 3;
+grid-row: 3;
+/* background-color: aquamarine; */
+outline-width: 30px;
+outline-color: rgb(206, 53, 104);
+outline: solid;
+} 
+.four {
+grid-column:3 / 4;
+grid-row: 2;
+
+outline-width: 30px;
+outline-color: rgb(17, 17, 16);
+outline: solid;
+}
+
+.fifth {
+grid-column:3 / 4;
+grid-row: 3;
+
+
+outline-width: 30px;
+outline-color: rgb(17, 17, 16);
+outline: solid;
+}
+
+.sixth {
+grid-column:3 / 4;
+grid-row: 4;
+
+outline-width: 30px;
+outline-color: rgb(17, 17, 16);
+outline: solid;
+}
+
+</style>
+
+
+
+
 </head>
 
 
 <body>
 
-<p>A woodland garden is a garden or section of a garden that includes large trees and is laid out so as to appear as more or less natural woodland, though it is often actually an artificial creation. Typically it includes plantings of flowering shrubs and other garden plants, especially near the paths through it.</p>
+    <div class="wrapper">
+      
+        <div class="one">
+            <h1 style="margin-left: 0%;">Welcome Title!</h1>
+        </div>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Sheringham_Park_1.JPG/330px-Sheringham_Park_1.JPG"><br>
+        <div class="two">
+            <p>A woodland garden is a garden or section of a garden that includes large trees and is laid out so as to appear as more or less natural woodland, though it is often actually an artificial creation. Typically it includes plantings of flowering shrubs and other garden plants, especially near the paths through it.</p>
+        </div>
 
-<a href="pages/secondpage.html">next page</a>
+        <div class="three">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Sheringham_Park_1.JPG/330px-Sheringham_Park_1.JPG"><br>
+        </div>
+
+        <div class="four">
+            <a href="pages/secondpage.html">next page</a>
+        </div>
+
+        <div class="fifth">
+        </div>
+
+        
+        <div class="sixth">
+        </div>
+  
+
+
+    </div>
+
+
+
+
 
 </body>
 </html>
